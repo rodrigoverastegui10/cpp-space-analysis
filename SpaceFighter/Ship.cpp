@@ -28,6 +28,7 @@ void Ship::Hit(const float damage)
 	m_hitPoints -= damage;
 	if (m_hitPoints > 0) return;
 
+	std::cout << "Enemy down!" << std::endl;
 	GameObject::Deactivate();
 	GetCurrentLevel()->SpawnExplosion(this);
 }

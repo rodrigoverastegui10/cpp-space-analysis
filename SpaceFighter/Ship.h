@@ -97,9 +97,9 @@ protected:
 
 private:
 
-	float m_speed = 300; // pixels per second
+	float m_speed = 600; // pixels per second
 
-	float m_maxHitPoints = 3;
+	float m_maxHitPoints = 5;
 	float m_hitPoints = m_maxHitPoints;
 
 	bool m_isInvulnurable = false;
